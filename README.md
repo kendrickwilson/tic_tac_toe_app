@@ -26,11 +26,11 @@ https://dartpad.dartlang.org
    cordova create tic_tac_toe_app org.mountnebochurch.ttt TicTacToe
 
 ## Install platform
-   `bash
+   <div style="background-color: black">   
    cd tic_tac_toe_app
    cordova platform add ios
-   cordova platform add android
-   `
+   cordova platform add android   
+   </div>
 
 ## Check development requirements
    `bash
