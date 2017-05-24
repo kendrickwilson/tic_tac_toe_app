@@ -1,59 +1,65 @@
 # Educational resources
-https://da-bootcamp.firebaseapp.com/?course=start_programming_dart
+https://da-bootcamp.firebaseapp.com/?course=start_programming_dart<br/>
 https://dartpad.dartlang.org
  
 # Install the development tools
   
 ## Install code editor
-  VSCode
-  https://marketplace.visualstudio.com/items?itemName=DanTup.dart-code
+  VSCode (https://marketplace.visualstudio.com/items?itemName=DanTup.dart-code)
    
 ## Install native development tools
-   Android Studio
-   Java SDK
-   XCode
+   * Android Studio
+   * Java SDK
+   * XCode
 
 ## Install/update node.js/npm
-   Visit Here : https://nodejs.org/en/download/current/
+   NodeJS (https://nodejs.org/en/download/current/)
 
 ## Install cordova
+   ```bash 
    npm install -g cordova
+   ```
 
 ## Install bower
+   ```bash 
    npm install -g bower
+   ```
 
-# Create tictactoe app 
+# Create cordova app 
+   ```bash 
    cordova create tic_tac_toe_app org.mountnebochurch.ttt TicTacToe
+   ```
 
 ## Install platform
-   <div style="background-color: black">   
-   cd tic_tac_toe_app
-   cordova platform add ios
-   cordova platform add android   
-   </div>
+   ```bash
+   cd tic_tac_toe_app   
+   cordova platform add ios   
+   cordova platform add android
+   ```
 
 ## Check development requirements
-   `bash
+   ```bash 
    cordova requirements
-   `
+   ```
 
 ## Build application
-   `bash
+   ```bash
    cordova build
-   `
+   ```
    
 ## Run app in emulator
-   `bash
+   ```bash
    cordova emulate android
-   `
+   ```
 
 ## Push app to phone **NOTE: put your android phone in developers mode **
-   `bash
+   ```bash
    cordova run android
-   `
+   ```
     
-# Install user interface library
-     
 # Install onsen with bower
-
-# Add tic tac toe code
+   ```bash
+   cd wwww
+   bower install onsen
+   ```
+# Add tic tac toe game assets
