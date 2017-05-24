@@ -21,7 +21,7 @@ npm install -g cordova
 npm install -g bower
 ```
 
-## Download and build this app
+## Download and build this app (https://github.com/kendrickwilson/tic_tac_toe_app/archive/master.zip)
 ```bash 
 git clone https://github.com/kendrickwilson/tic_tac_toe_app.git
 cd tic_tac_toe_app
