@@ -1,0 +1,54 @@
+`<!DOCTYPE html>
+<!--
+      Replace cordova default ui components with onsen ui components
+
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" href="css/index.css"/>
+        <link rel="stylesheet" href="bower_components/onsenui/css/onsenui.css"/>
+        <link rel="stylesheet" href="bower_components/onsenui/css/onsen-css-components.css"/>
+        <script src="bower_components/onsenui/js/onsenui.js"></script>
+
+        <title>Tic Tac Toe</title>
+    </head>
+    <body>
+        <ons-page>
+          <ons-toolbar>
+            <div class="center">Tic Tac Toe</div>
+          </ons-toolbar>
+          <div style="color: red; font-size: 25px; margin-top: 8px; width:93px;margin-left:auto;margin-right:auto; ">
+            <span style="width: 50px;padding:5px 5px 5px 5px;">Wins</span><span id="wins_value" style="text-align:right;width: 20px;"></span>
+            <span style="width: 50px;padding:5px 5px 5px 5px;">Draws</span><span id="draws_value" style="text-align:right;width: 20px;"></span>
+            <span style="width: 50px;padding:5px 5px 5px 5px;">Loses</span><span id="loses_value" style="text-align:right;width: 20px;"></span>
+          </div>
+            <div style="margin-top: 30px; width: 310px;margin-left:auto;margin-right:auto;">
+              <div style="display:flex;">
+                <div id="0" class="no_border"></div>
+                <div id="1" class="left_right_border"></div>
+                <div id="2" class="no_border"></div>
+              </div>
+              <div style="display:flex;">
+                <div id="3" class="top_bottom_border"></div>
+                <div id="4" class="all_border"></div>
+                <div id="5" class="top_bottom_border"></div>
+              </div>
+              <div style="display:flex;">
+                <div id="6" class="no_border"></div>
+                <div id="7" class="left_right_border"></div>
+                <div id="8" class="no_border"></div>
+              </div>
+          </div>
+            <div  id="new_game" style="margin-top: 40px; width:113px;margin-left:auto;margin-right:auto;">
+                <ons-button>New Game</ons-button>
+            </div>
+        </ons-page>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
+`
