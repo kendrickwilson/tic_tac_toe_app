@@ -8,7 +8,7 @@
 * Android Studio (https://developer.android.com/studio/install.html)
 * XCode (see mac app store)
 
-### Install/update node.js/npm
+### Install node.js/npm
 * NodeJS (https://nodejs.org/en/download/current/)
 
 ### Install cordova
