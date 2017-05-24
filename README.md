@@ -1,8 +1,4 @@
-# Educational resources
-https://da-bootcamp.firebaseapp.com/?course=start_programming_dart<br/>
-https://dartpad.dartlang.org
- 
-# Install the development tools
+# Getting started
   
 ## Install code editor
   VSCode (https://marketplace.visualstudio.com/items?itemName=DanTup.dart-code)
