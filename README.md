@@ -26,31 +26,31 @@ https://dartpad.dartlang.org
    cordova create tic_tac_toe_app org.mountnebochurch.ttt TicTacToe
 
 ## Install platform
-   ```bash
+   `bash
    cd tic_tac_toe_app
    cordova platform add ios
    cordova platform add android
-   ```
+   `
 
 ## Check development requirements
-   ```bash
+   `bash
    cordova requirements
-   ```
+   `
 
 ## Build application
-   ```bash
+   `bash
    cordova build
-   ```
+   `
    
 ## Run app in emulator
-   ```bash
+   `bash
    cordova emulate android
-   ```
+   `
 
 ## Push app to phone **NOTE: put your android phone in developers mode **
-   ```bash
+   `bash
    cordova run android
-   ```
+   `
     
 # Install user interface library
      
