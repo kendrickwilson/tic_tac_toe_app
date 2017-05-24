@@ -1,7 +1,7 @@
 ## Getting started
   
 ### Install code editor
-* VSCode (https://marketplace.visualstudio.com/items?itemName=DanTup.dart-code)
+* Atom (https://atom.io/)
    
 ### Install native development tools
 * Java SDK (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
