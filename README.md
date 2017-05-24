@@ -1,7 +1,7 @@
 ## Getting started
   
 ### Install code editor
-VSCode (https://marketplace.visualstudio.com/items?itemName=DanTup.dart-code)
+* VSCode (https://marketplace.visualstudio.com/items?itemName=DanTup.dart-code)
    
 ### Install native development tools
 * Java SDK (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
@@ -9,7 +9,7 @@ VSCode (https://marketplace.visualstudio.com/items?itemName=DanTup.dart-code)
 * XCode (see mac app store)
 
 ### Install/update node.js/npm
-NodeJS (https://nodejs.org/en/download/current/)
+* NodeJS (https://nodejs.org/en/download/current/)
 
 ### Install cordova
 ```bash 
