@@ -25,16 +25,11 @@ https://dartpad.dartlang.org
    npm install -g bower
    ```
 
-# Create cordova app 
-   ```bash 
-   cordova create tic_tac_toe_app org.mountnebochurch.ttt TicTacToe
-   ```
-
-## Install platform
-   ```bash
-   cd tic_tac_toe_app   
-   cordova platform add ios   
-   cordova platform add android
+# Download and build this app
+```bash 
+   git clone https://github.com/kendrickwilson/tic_tac_toe_app.git
+   cd tic_tac_toe_app
+   cordova clean   
    ```
 
 ## Check development requirements
@@ -42,7 +37,7 @@ https://dartpad.dartlang.org
    cordova requirements
    ```
 
-## Build application
+# Build application
    ```bash
    cordova build
    ```
@@ -56,10 +51,3 @@ https://dartpad.dartlang.org
    ```bash
    cordova run android
    ```
-    
-# Install onsen with bower
-   ```bash
-   cd wwww
-   bower install onsen
-   ```
-# Add tic tac toe game assets
