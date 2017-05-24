@@ -4,9 +4,9 @@
 VSCode (https://marketplace.visualstudio.com/items?itemName=DanTup.dart-code)
    
 ### Install native development tools
-* Android Studio
-* Java SDK
-* XCode
+* Java SDK (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* Android Studio (https://developer.android.com/studio/install.html)
+* XCode (see mac app store)
 
 ### Install/update node.js/npm
 NodeJS (https://nodejs.org/en/download/current/)
