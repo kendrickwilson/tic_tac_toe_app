@@ -174,6 +174,7 @@ class AppController {
     }
   }
 
+  // TODO: refactor, create delegate "Test" method to reduce complexity in the if statement
   findWinningMove(value) {
     if (this.gameBoard[0] == 0 && this.gameBoard[4] == this.gameBoard[8] && this.gameBoard[8] == value) {
       return 0;
@@ -227,7 +228,8 @@ class AppController {
       return -1;
     }
   }
-
+  
+  // TODO: refactor, create delegate "Test" method to reduce complexity in the if statement
   haveWinner() {
     if (this.gameBoard[0] != 0 && this.gameBoard[0] == this.gameBoard[4] && this.gameBoard[4] == this.gameBoard[8]) {
       return true;
