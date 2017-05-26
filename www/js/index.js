@@ -61,21 +61,24 @@ class AppController {
     this.gameBoard = [0, 0, 0, 0, 0, 0, 0, 0, 0];
 
     //  -----------------------------------
-    // clear screen
+    // clear board on screen
     for (var i = 0; i < 9; ++i) {
       document.getElementById(i).innerHTML = '';
     }
 
-    // all user to start game
+    // allow user to start game
     this.userTurn = true;
+    // hide "new game" button
     document.getElementById("new_game").style.visibility = 'hidden';
   }
 
   endGame() {
     this.gameOver = true;
+    // update score board
     document.getElementById('wins_value').innerHTML = this.wins;
     document.getElementById('loses_value').innerHTML = this.loses;
     document.getElementById('draws_value').innerHTML = this.draws;
+    // display "new game" button
     document.getElementById("new_game").style.visibility = 'visible';
   }
 
@@ -163,9 +166,9 @@ class AppController {
   }
 
   shuffle(a) {
-    var j,
-      x,
-      i;
+    var j;
+    var x;
+    var i;
     for (i = a.length; i; i--) {
       j = Math.floor(Math.random() * i);
       x = a[i - 1];
