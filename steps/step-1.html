@@ -1,27 +1,38 @@
 <!DOCTYPE html>
-<!--
-      Replace cordova default ui components with onsen ui components
-
--->
 <html>
-    <head>
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" href="bower_components/onsenui/css/onsenui.css"/>
-        <link rel="stylesheet" href="bower_components/onsenui/css/onsen-css-components.css"/>
-        <script src="bower_components/onsenui/js/onsenui.js"></script>
 
-        <title>Tic Tac Toe</title>
-    </head>
-    <body>
-        <ons-page>
-          <ons-toolbar>
-            <div class="center">Tic Tac Toe</div>
-          </ons-toolbar>
-          Coming Soon.....
-        </ons-page>
-        <script type="text/javascript" src="cordova.js"></script>
-    </body>
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css"></link>
+    <script src="bower_components/material-design-lite/material.min.js"></script>
+    <link rel="stylesheet" href="css/material-icons.css"></link>
+    <title>Tic Tac Toe</title>
+  </head>
+
+  <body>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">Tic Tac Toe</span>
+          <div class="mdl-layout-spacer"></div>
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="">W - <span id="wins_value">0</span></a>
+            <a class="mdl-navigation__link" href="">L - <span id="loses_value">0</span></a>
+            <a class="mdl-navigation__link" href="">D - <span id="draws_value">0</span></a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="mdl-layout__content">
+        <div id="new_game" style="margin-top: 40px;  width:113px;margin-left:auto;margin-right:auto;">
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">New Game</button>
+        </div>
+      </main>
+    </div>
+
+  </body>
 </html>
