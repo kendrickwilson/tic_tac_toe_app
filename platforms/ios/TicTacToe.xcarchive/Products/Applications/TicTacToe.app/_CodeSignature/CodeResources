@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		QPkoiFnTH0LQGixRQKWcqmIxLO0=
+		BqTt/VCzdlGiFMZ1eJok8NCOJXI=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		sNERas8PWtvJfG9zEk7hVZe6gR4=
+		84iv/TlJs+ZrVQtFCedGgrO7FNg=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		F9b5BeoCfz4USOeRWDnFYybMJd8=
+		p/BA0mueKs+ev9DTisy8h7zBBOo=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		wXIZWCsqUCULdFUCnmk/eT7MozM=
+		yFBmJkdEPushSo/Xx/WPSvus17g=
 		</data>
 		<key>www/bower_components/material-design-lite/LICENSE</key>
 		<data>
@@ -1080,9 +1080,13 @@
 		<data>
 		i2IEsFkIli0KeJUYmjLxjilbYLg=
 		</data>
+		<key>www/js/index.dart</key>
+		<data>
+		P/bDTbofrs5VhpHjm4KSdEcVedI=
+		</data>
 		<key>www/js/index.js</key>
 		<data>
-		GEU+eCTdf/TkfGLK2qG+HYtUO6M=
+		qzeZbs0SimTquWEDZ2RnTtInAng=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1311,11 +1315,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QPkoiFnTH0LQGixRQKWcqmIxLO0=
+			BqTt/VCzdlGiFMZ1eJok8NCOJXI=
 			</data>
 			<key>hash2</key>
 			<data>
-			HqPJXD2qaG+03MPq76s+btM17eBJPtPgIQUart5HRGg=
+			bfTZiOCVDdQvevMHS0NhxN1/aNECZClmtv76Vhf4dA8=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -1333,11 +1337,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sNERas8PWtvJfG9zEk7hVZe6gR4=
+			84iv/TlJs+ZrVQtFCedGgrO7FNg=
 			</data>
 			<key>hash2</key>
 			<data>
-			RgQcKqQ4uKYXFqjybsVIG0IWeqY1XmFW1eZUIo9jJHc=
+			mRkLQxZkcPVwuEF+ryAvFWXXFXJp5pJRwzNg/RZmkYA=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -1432,11 +1436,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			F9b5BeoCfz4USOeRWDnFYybMJd8=
+			p/BA0mueKs+ev9DTisy8h7zBBOo=
 			</data>
 			<key>hash2</key>
 			<data>
-			gLG+b3YpFKNoLHrWP9+UA0nUN49mVNtBlGddF8rNgfM=
+			Fmrf4hgjXq3VdM5yWq8zQemNRN2Frm4FGajsq4zFcZI=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -1465,11 +1469,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wXIZWCsqUCULdFUCnmk/eT7MozM=
+			yFBmJkdEPushSo/Xx/WPSvus17g=
 			</data>
 			<key>hash2</key>
 			<data>
-			fqwmIBvj3uFFVzL5SC1X/FTHIL4BIA1V1ZF6Sv+mvQ8=
+			/DtzLLHvzk7mBCGD8eG4QBPf9/t3W2EbIBGc9dPcxj0=
 			</data>
 		</dict>
 		<key>www/bower_components/material-design-lite/LICENSE</key>
@@ -4024,15 +4028,26 @@
 			CtZtc+/sseQfH3DdnRKMk80hTVP4CN+65Un3EYspbRk=
 			</data>
 		</dict>
+		<key>www/js/index.dart</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P/bDTbofrs5VhpHjm4KSdEcVedI=
+			</data>
+			<key>hash2</key>
+			<data>
+			OL6G+mb6QXO9jNlW3mw5+v5/NHVHdo9BBFF5i0yuwQw=
+			</data>
+		</dict>
 		<key>www/js/index.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GEU+eCTdf/TkfGLK2qG+HYtUO6M=
+			qzeZbs0SimTquWEDZ2RnTtInAng=
 			</data>
 			<key>hash2</key>
 			<data>
-			VvhHwds1qqE9B2UBUUFTr1i+izlSFJevZSnFON3/Gd0=
+			JI0dwhEMRsVO4hj0k5mfyXP9VhaiFoAO0OYgMJrJTAo=
 			</data>
 		</dict>
 	</dict>
