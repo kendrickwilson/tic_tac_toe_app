@@ -317,6 +317,7 @@ findBestMove() {
       rank += this.computeRank(1,4,7,value);
     } else if (possibleMove == 2) {
       rank += this.computeRank(0,1,2,value);
+      rank += this.computeRank(2,4,6,value);
       rank += this.computeRank(2,5,8,value);
     } else if (possibleMove == 3) {
       rank += this.computeRank(0,3,6,value);
@@ -332,12 +333,14 @@ findBestMove() {
     } else if (possibleMove == 6) {
       rank += this.computeRank(2,4,6,value);
       rank += this.computeRank(0,3,6,value);
+      rank += this.computeRank(6,7,8,value);
     } else if (possibleMove == 7) {
       rank += this.computeRank(6,7,8,value);
       rank += this.computeRank(1,4,7,value);
     } else if (possibleMove == 8) {
       rank += this.computeRank(6,7,8,value);
       rank += this.computeRank(2,5,8,value);
+      rank += this.computeRank(0,4,8,value);
     }
     return rank;
   }
