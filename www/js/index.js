@@ -132,6 +132,7 @@ findBestMove() {
   }
 
   var options = [0, 1, 2, 3, 4, 6, 7, 8];
+  this.shuffle(options);
   var ranks = this.rankMoves(options,2);
   var maxRankValue = -1;
   var maxRankPos = -1;
