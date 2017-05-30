@@ -302,7 +302,7 @@ findBestMove() {
     var ranks = new Array(size);
 
     for (var i = 0 ; i < size; ++ i) {
-        ranks[i] = this.rankMove(i);
+        ranks[i] = this.rankMove(i,value);
     }
     return ranks;
   }
