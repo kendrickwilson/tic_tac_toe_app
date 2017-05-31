@@ -8,7 +8,7 @@
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
     <link rel="stylesheet" href="bower_components/material-design-lite/material.min.css"></link>
     <script src="bower_components/material-design-lite/material.min.js"></script>
-    
+
     <link rel="stylesheet" href="css/index.css"></link>
     <title>Tic Tac Toe</title>
   </head>
@@ -21,15 +21,17 @@
           <span class="mdl-layout-title">Tic Tac Toe</span>
           <div class="mdl-layout-spacer"></div>
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">W - <span id="wins_value">0</span></a>
-            <a class="mdl-navigation__link" href="">L - <span id="loses_value">0</span></a>
-            <a class="mdl-navigation__link" href="">D - <span id="draws_value">0</span></a>
           </nav>
         </div>
       </header>
 
       <main class="mdl-layout__content">
-        <div style="margin-top: 80px;width: 310px;margin-left:auto;margin-right:auto;">
+        <div style="margin-top: 60px;width: 310px;margin-left:auto;margin-right:auto;">
+          <div style="display:flex;">
+            <div class="no_border" style="font-weight: bold;margin:auto; width:33%;height: 20px"><center>W - <span id="wins_value">0</span></center></div>
+            <div class="no_border" style="font-weight: bold;margin:auto; width:33%; height: 20px"><center>L - <span id="loses_value">0</span></center></div>
+            <div class="no_border" style="font-weight: bold;margin:auto; width:33%;height: 20px"><center>D - <span id="draws_value">0</span></center></div>
+          </div>
           <div style="display:flex;">
             <div id="0" class="no_border"></div>
             <div id="1" class="left_right_border"></div>
